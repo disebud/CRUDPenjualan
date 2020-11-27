@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+tools:context=".activity.pelanggan.BuatPelanggan">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:text="Buat Data Pelanggan Baru"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Pelanggan" />
+    <EditText
+        android:id="@+id/et_kdPelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="1xxx"
+        android:maxLength="4">
+    </EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama" />
+    <EditText
+        android:id="@+id/et_namaPelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nama Lengkap"
+        android:maxLength="20" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Telphone" />
+    <EditText
+        android:id="@+id/et_telp_pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="08xxxxxxxxxxx"
+        android:inputType="text"
+        android:maxLength="12" />
+
+    <Button
+        android:id="@+id/button_save_pelanggan"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:text="Simpan" />
+    <Button
+        android:id="@+id/button_kembali_pelanggan"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_media_previous"
+        android:text="Kembali" />
+
+</LinearLayout>
+</ScrollView>

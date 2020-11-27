@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg_satu"
+tools:context=".activity.penjualan.Penjualan">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginBottom="40dp"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@id/listViewPenjualan"
+    android:src="@drawable/alibaba"/>
+
+<ListView
+    android:id="@+id/listViewPenjualan"
+    android:layout_width="match_parent"
+    android:layout_above="@id/buttonPenjualan"
+    android:layout_height="400dp">
+</ListView>
+
+<Button
+    android:id="@+id/buttonPenjualan"
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:drawableLeft="@android:drawable/ic_input_add"
+    android:text="Buat Pelanggan Baru" />
+
+
+</RelativeLayout>

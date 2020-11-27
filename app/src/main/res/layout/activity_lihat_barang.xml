@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".activity.barang.LihatBarang">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:text="Lihat Data Barang"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kode Barang" />
+            <EditText
+                android:id="@+id/et_kdBarang_lihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="2xxx"
+                android:maxLength="4">
+            </EditText>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama" />
+            <EditText
+                android:id="@+id/et_namaBarang_lihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Nama Barang"
+                android:maxLength="20" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Satuan" />
+            <EditText
+                android:id="@+id/et_satuan_barang_lihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="xxxx"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Harga" />
+            <EditText
+                android:id="@+id/et_harga_barang_lihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="xxxxxxxxxxx"
+                android:inputType="number"
+                android:maxLength="100" />
+
+
+            <Button
+                android:id="@+id/button_kembali_barang_lihat"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_media_previous"
+                android:text="Kembali" />
+
+        </LinearLayout>
+    </ScrollView>
+
