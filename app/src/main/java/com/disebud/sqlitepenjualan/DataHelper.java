@@ -40,7 +40,11 @@ public class DataHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO penjualan (id_penjualan, tgl_penjualan, kd_pelanggan, kd_barang,qty) VALUES (3004, '2020-11-26', 1004, 2004, 2)");
         db.execSQL("INSERT INTO penjualan (id_penjualan, tgl_penjualan, kd_pelanggan, kd_barang,qty) VALUES (3005, '2020-11-26', 1005, 2005, 2)");
 
-
+        db.execSQL("CREATE TABLE produk(id_produk integer primary key autoincrement, kd_produk text, nama_produk text, harga integer)");
+        db.execSQL("INSERT INTO produk (kd_produk, nama_produk, harga) VALUES ('8998127912370', 'Dunhil Fine Cut Mild','23000')");
+        db.execSQL("INSERT INTO produk (kd_produk, nama_produk, harga) VALUES ('8998127912371', 'Aqua Botol 300ml','2000')");
+        db.execSQL("INSERT INTO produk (kd_produk, nama_produk, harga) VALUES ('8998127912372', 'Kopi Susu ABC','1000')");
+        db.execSQL("INSERT INTO produk (kd_produk, nama_produk, harga) VALUES ('8998127912372', 'Fine choco 27g','1500')");
 
     }
 

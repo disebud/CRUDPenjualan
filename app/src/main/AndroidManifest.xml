@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqlitePenjualan">
         <activity android:name=".activity.HalamanUtama"></activity>
+        <activity android:name=".activity.barcode.ListScan" />
+        <activity android:name=".activity.barcode.ActivityKedua" />
+        <activity android:name=".activity.barcode.ActivityKetiga" />
+        <activity android:name=".activity.barcode.produk.ActivityProduk" />
+        <activity android:name=".activity.barcode.produk.BuatProduk" />
+        <activity android:name=".activity.barcode.produk.LihatProduk" />
+        <activity android:name=".activity.barcode.produk.UpdateProduk" />
         <activity android:name=".activity.penjualan.BuatPenjualan" />
         <activity android:name=".activity.penjualan.UpdatePenjual" />
         <activity android:name=".activity.penjualan.LihatPenjualan" />

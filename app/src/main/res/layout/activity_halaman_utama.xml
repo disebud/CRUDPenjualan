@@ -27,6 +27,14 @@
         app:srcCompat="@drawable/alibaba" />
 
     <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:onClick="scanMove"
+        android:text="SCAN PRODUK" />
+
+    <Button
         android:id="@+id/btn_pelanggan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
